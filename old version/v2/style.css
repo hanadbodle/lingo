@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#lingo {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.guessBox {
+    width: 250px;
+
+}
+
+.guessBox > div {
+    background: steelblue;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+#input {
+    width: 220px;
+}

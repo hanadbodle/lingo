@@ -1,0 +1,52 @@
+* {
+    background-color: #123;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;;
+}
+
+#lingo {
+    width: 240px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 13px;
+    font-size: 50px;
+    position: relative;
+    left: -5px;
+}
+
+.guessBox {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    font-size: 42px;
+}
+
+.guessBox div {
+    background: steelblue;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+#input {
+    width: 206px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    background: limegreen;
+
+    font-size: 33px;
+}

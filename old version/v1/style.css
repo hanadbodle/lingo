@@ -1,0 +1,10 @@
+.guessBox {
+    width: 170px;
+    height: 20px;
+
+    border: 2px solid deepskyblue;
+}
+
+input {
+    margin-top: 10px;
+}
